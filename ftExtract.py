@@ -25,7 +25,6 @@ for file in folders:
 		
 		# Find largest contour
 		contours = cv2.findContours(bw_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)[0]
-		#sortedCntrs = sorted(contours, key = lambda contour: cv2.boundingRect(contour)[0])
 		maxVals = [0, 0, 0, 0]
 		for contour in contours:
 			x, y, w, h = cv2.boundingRect(contour)
