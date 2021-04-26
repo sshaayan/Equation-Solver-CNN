@@ -14,5 +14,5 @@ Numpy version: 1.19.5
 
 
 ## Setup
-To run this project, download files to a directory. Add Jpeg images of handwritten equations consisting of digits 0-9 and/or the multiplication, subtraction, and addition symbols to directory test_images if necessary. Run the program equation_solver.py using the following command:  
+To run this project, download files to a directory. Add Jpeg images of handwritten equations consisting of digits 0-9 and/or the multiplication, subtraction, and addition symbols to directory *test_images* if necessary. Run the program *equation_solver.py* using the following command:  
 $ python3 equation_solver.py
